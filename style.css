@@ -1,0 +1,246 @@
+#fotoPerfil{
+    box-shadow: 3px 3px 5px black;
+    max-width: 200px; 
+    max-height: 200px;
+}
+
+#logoCurso{
+    max-height: 50px;
+}
+
+#logoLinked{
+    max-height: 40px;
+    margin-top: 6px;
+}
+
+#logoGit{
+    max-height: 40px;
+    margin-top: 6px;
+}
+
+
+#info-actions{
+    padding-bottom: 15px;
+}
+
+.encabezado{
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+section{
+    box-shadow: 0px -2px 5px darkorange;
+}
+
+.btn{
+    border-width: 2px;
+    margin-bottom: 10px;
+}
+
+.active{
+    display: flex;
+    align-items: center;
+}
+
+header{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sombra{
+    text-shadow: 2px 2px black;
+    
+}
+
+button{
+    box-shadow: 2px 2px 5px black;
+}
+
+#Proyectos a{
+    box-shadow: 2px 2px 5px black;  
+}
+
+i:hover {
+    color: rgb(28, 100, 255);
+}
+
+i{
+    color: white;
+   
+}
+
+#acercaDeMi p{
+    font-size: 25px;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+h1,li,ul{
+    text-align:center;
+}
+
+h2,h3{
+    display:inline;
+}
+
+.experiencia{
+    padding:20px;
+}
+
+.seccion{
+    box-shadow: 0px -2px 5px black;
+}
+
+.myDiv {
+    display: flex;
+    justify-content: center;
+  }
+
+  .estudio{
+    padding: 20px;
+}
+
+.habilidades{
+    padding:20px;
+    color:antiquewhite;
+}
+
+.proyecto{
+    padding: 20px;
+    
+}
+
+.imagen {
+    height: 400px;
+    width: 700px;
+    justify-content: center;
+
+}
+
+#contacto{
+	margin: 0 auto;
+	background: rgba(0, 0, 0, 0.5);	
+	border: gray 1px solid;
+	border-radius: 15px;
+	animation: fadeInLeft ease 2s backwards;
+	max-width: max-content;
+}
+
+.contacto__input, .contacto__textarea{
+	font-size: 1.2em;
+	background-color: transparent;
+	padding: 5px;
+	color: rgb(255, 59, 10);
+	border-radius: 10px;
+	border: 00.5px solid darkgoldenrod;
+    margin-bottom: 20px;
+    
+}
+
+.input-container{
+    display: flex;
+    justify-content: center;
+}
+
+.hobbies_text__list{
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.list li{
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.list i{
+    padding: 20px;
+    
+}
+
+
+
+
+footer{
+    
+    box-shadow: 0px -2px 5px darkorange;
+    
+}
+
+@media screen and (max-width:768px) {
+	.header_logo{
+		display: none;
+	}
+	.headerPrincipal_nav__link{
+		font-size: 1.4em;
+	}
+	.principal{
+		margin: 20px;
+	}
+	
+	.sobreMi, .skills, .hobbies, .formacion, .proyectos, .contacto{
+		animation: none;
+		max-width: none;
+		margin-bottom: 20px;
+	}
+	.styleSobreMi{
+		border-top: gray 1px solid;
+	}
+	
+	.animation_background{
+		display: none;
+		
+	}
+	.headerPrincipal{
+		background-color: black;
+		animation: none;
+		border-bottom: solid 0.5px rgb(255, 100, 10);
+	}
+	.contenidoPrincipal{
+		margin: 5%;
+	}
+
+	.proyectos_text__item{
+		width: auto;
+	}
+	.proyectos_text__area{
+		margin-bottom: 40px;
+	}
+	.formulario{
+		margin: 20px 0;
+	}
+	.social{
+		padding-bottom: 60px;
+	}
+	
+	
+}
+
+@media screen and (min-width:360px) {
+.formacion_text__item{
+	width: auto;
+}
+.proyectos_button, .contacto__boton {
+	/* height: 25px; */
+	/* font-size: .8em; */
+	height: 37px;
+	font-size: 1.2em;
+  }
+ 
+.proyectos_text__area {
+	/* height: 250px; */
+	height: 291px;
+  }
+
+.sobreMi_text, .skills_text, .hobbies_text, .formacion_text, .proyectos_text {
+	/* text-align: justify; */
+	text-align: center;
+  }
+
+}
